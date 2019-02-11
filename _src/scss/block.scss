@@ -1,0 +1,41 @@
+.block {
+  padding: 60px 0 0 0;  
+  
+  &--pdb {
+    padding-bottom: 60px;
+  }
+
+  &--pd-t-none {
+    padding-top: 0 !important;
+  }
+
+  @media ($m-m) {
+    padding: 48px 0 0 0;
+
+    &--gray {
+      background: $c-gray;
+    }
+    
+    &--pdb {
+      padding-bottom: 60px;
+    }
+
+    &--deskpb {
+      padding-bottom: 60px;
+    }
+  }
+}
+
+.block__head {
+  position: relative;
+}
+
+.block__title {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 34px;
+
+  color: #000000;
+}

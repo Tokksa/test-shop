@@ -1,0 +1,39 @@
+.head-menu {
+  width: 330px;
+  height: 447px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+
+}
+
+.head-menu__item {
+  position: relative;
+  display: flex;
+  width: 330px;
+  height: 48px;
+
+  align-items: center;
+
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+
+}
+
+.head-menu__sub {
+  display: none;
+}
+
+.head-menu__icon {
+  margin: 0 20px 0 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.head-menu__arrow {
+  position: absolute;
+  top: 13px;
+  right: 24px;
+  width: 5px;
+  height: 10px;
+
+}

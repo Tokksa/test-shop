@@ -1,0 +1,43 @@
+.head-1-stock {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -24px 0 0 -24px;
+}
+
+.head-1-stock__inner {
+  padding: 24px 0 0 24px;
+}
+
+.head-1-stock__card {
+  position: relative;
+  border-radius: 4px;
+}
+
+.head-1-stock__pic {
+  
+}
+
+.head-1-stock__info {
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  color: #FFFFFF;
+  
+}
+
+.head-1-stock__title {
+  font-size: 24px;
+
+}
+
+.head-1-stock__text {
+  line-height: 20px;
+  font-size: 14px;
+  width: 95%;
+}
+
+.head-1-stock__btn {
+
+}

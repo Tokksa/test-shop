@@ -1,0 +1,54 @@
+.cookies-popup {
+  position: fixed;
+  z-index: 101;
+  left: 0;
+  right: 0;
+  bottom: 24px;
+  width: 1392px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #202020;
+  // box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 30px 0px;
+
+  // @media ($m-s) {
+  //   top: auto;
+  //   bottom: 0;
+  //   right: 0;
+  //   left: 0;
+  // }
+}
+
+.cookies-popup__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  padding: 0 25px;
+
+  // @media ($m-m) {
+  //   height: 120px;
+  // }
+}
+
+.cookies-popup__text {
+  width: 90%;
+  line-height: 20px;
+  font-size: 14px;
+  color: #FFFFFF;
+
+}
+
+.cookies-popup__btn {
+  height: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  opacity: 1;
+  background: transparent;
+  
+  color: #6202EE;
+  cursor: pointer;
+
+}

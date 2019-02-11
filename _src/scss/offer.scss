@@ -1,0 +1,43 @@
+.offer-slider {
+  position: relative;
+
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.offer-slider__info {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 55%;
+}
+
+.offer-slider__title {
+  z-index: 4;
+  padding: 99px 0 0 119px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.offer-slider__text {
+  z-index: 4;
+  padding: 24px 0 24px 119px;
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.offer-slider__btn {
+  z-index: 4;
+  margin: 0 0 52px 119px;
+  color: #FFFFFF;
+}
+
+.offer-slider__pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,133 @@
+.header-1 {
+  position: relative;
+  background-color: #fff;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.header-1__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+
+  &--h80 {
+    height: 80px;
+    justify-content: flex-start;
+  }
+}
+
+.header-1__col {
+  display: flex;
+  align-items: center;
+
+  &--left {
+    justify-content: flex-start;
+    width: 15%;
+  }
+
+  &--center {
+    justify-content: center;
+    width: 60%;
+  }
+
+  &--right {
+    justify-content: flex-end;
+    width: 25%;
+  }
+}
+
+.header-1__logo {
+  display: flex;
+  width: 78px;
+  height: 25px;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+
+  @media ($m-s) {
+    width: 229px;
+    height: 56px;
+  }
+}
+
+.header-1__logo-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.header-1__logo-title {
+  margin-left: 24px;
+
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 20px;
+
+  color: #000000;
+}
+
+.header-1__search {
+  width: 802px;
+  height: 48px;
+  margin-left: 24px;
+}
+
+.header-1__search-wrap {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: -58px;
+  width: 100%;
+  transform: scaleY(0);
+  transform-origin: 100% 0;
+  overflow: hidden;
+  transition: transform .2s;
+
+  &.is-active {
+    transform: scaleY(1);
+  }
+}
+
+.header-1__item {
+  position: relative;
+  display: block;
+}
+
+.header-1__item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.header-1__links {
+  padding: 4px 0 0 24px;
+}
+
+.header-1__link {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+    transition: .2s;
+  
+    &:hover {
+      color: #6202EE;
+      border-color: #fff;
+    }
+}
+
+.header-1__item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

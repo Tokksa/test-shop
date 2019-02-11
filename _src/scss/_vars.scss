@@ -1,0 +1,35 @@
+// Media
+$m-xxs: "min-width: 375px";
+$m-xs: "min-width: 568px";
+$m-s: "min-width: 768px";
+$m-m: "min-width: 992px";
+$m-ml: "min-width: 1200px";
+$m-l: "min-width: 1280px";
+$m-xl: "min-width: 1440px";
+$m-xxl: "min-width: 1600px";
+
+$ma-xxs: "max-width: 376px";
+$ma-xs: "max-width: 567px";
+$ma-s: "max-width: 767px";
+$ma-m: "max-width: 991px";
+$ma-l: "max-width: 1279px";
+$ma-xl: "max-width: 1439px";
+
+// Colors
+$c-main: #2A2850;
+$c-blue: #393B88;
+$c-darkBlue: #2B2954;
+$c-yellow: #F6DE00;
+$c-darkYellow:#F0D92B;
+$c-green: #008B64;
+$c-red: #E73E52;
+$c-gray: #F7F7F7;
+$c-lightGray: #F6F6F6;
+$c-darkGray: #C2C3D2;
+$c-altGray: #C4C4C4;
+$c-white: #FFFFFF;
+$c-black: #000000;
+
+// Gradients
+$g-gray: linear-gradient(-135deg, #F2F2F2, #FBFBFB);
+$g-orange: linear-gradient(180deg, #FAA23A 0%, #F18027 100%);

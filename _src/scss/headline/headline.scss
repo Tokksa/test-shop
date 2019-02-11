@@ -1,0 +1,33 @@
+.headline {
+  position: relative;
+  z-index: 1;
+  display: none;
+  background-color: #FAFAFA;
+
+  @media ($m-s) {
+    display: block;
+  }
+}
+
+.headline__inner {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  color: #000000;
+
+}
+
+.headline__link {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  transition: .2s;
+
+  &:hover {
+    color: #6202EE;
+    border-color: #fff;
+  }
+}
